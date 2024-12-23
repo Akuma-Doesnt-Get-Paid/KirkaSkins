@@ -7,7 +7,7 @@
             "img": "false"
         }
     ]
-    "2":
+    "2": [
         {
             "name": "coins",
             "amount": 300,
