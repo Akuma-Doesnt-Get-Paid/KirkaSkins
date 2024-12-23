@@ -166,10 +166,10 @@
     background-position: 0px 0px;
     -webkit-animation: animate 30s linear infinite !important;
 }
-/*https://irrvlo.xyz/pattern.webp*/
-/* GRAY BG -->https://i.imgur.com/CxAyq2w.png*/
+/*https://juicepoopooumgood.github.io/Juice/9a150f4edf3aaa3b5ec417fc970c5372.gif*/
+/* GRAY BG -->https://juicepoopooumgood.github.io/Juice/9a150f4edf3aaa3b5ec417fc970c5372.gif*/
 
-/*background-image: url("https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png?ex=668ba102&is=668a4f82&hm=2e7a2f964aa53e1d8abe46cb44e57d3f9d8f9a7c9914e1fee1cfe8579272e1a9&") !important;
+/*background-image: url("https://juicepoopooumgood.github.io/Juice/9a150f4edf3aaa3b5ec417fc970c5372.gif") !important;
     background-size: cover !important;
     -webkit-animation: animate 10s linear infinite!important;*/
 #app > div.interface.text-2 > div.background > div.pattern-bg,
@@ -179,7 +179,7 @@
 
 /*End Screen Background*/
 .end-modal {
-    background: url("https://irrvlo.xyz/pattern.webp") repeat !important;
+    background: url("https://juicepoopooumgood.github.io/Juice/9a150f4edf3aaa3b5ec417fc970c5372.gif") repeat !important;
     z-index: -1;
     
     
@@ -1545,34 +1545,366 @@ box-shadow: none !important;
     top: 14rem;
     left: -10rem;
 }*/
-.kill-bar-cont .kill-bar-item {
-    background: #0000007d;
-    position: relative;
-    right: 0.1rem;
-    top: 3rem !important;
-    
-}
-.WwwnM.bg.text-1 {
-    background: #0000007d;
-    position: fixed;
-    right: 0.1rem;
-    top: 1rem !important;
-    
-}
-.kill.bg.text-1 {
-    background: #0000007d;
-    position: fixed;
-    right: 4rem;
-    top: 1rem !important;
-    
-}
-.timer.bg.text-1 {
-    background: #0000007d;
+
+
+/* Akuma */
+
+*::-webkit-scrollbar {
+    display: none !important;
 }
 
-.news-card {
+.text-1,
+.text-2 {
+    text-shadow: unset !important;
+}
+
+/* HUD */
+.mini-map-cont {
+    left: 1rem !important;
+}
+
+.mini-map-cont div {
+    font-size: 1.5rem !important;
+    display: flex !important;
+    position: static !important;
+}
+
+.mini-map-cont .mod {
+    font-size: 1rem !important;
+}
+
+.timer {
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: transparent !important;
+    box-shadow: unset !important;
+    margin: unset !important;
+    padding: unset !important;
+    font-size: 1.6rem !important;
+}
+
+.kill-death {
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    gap: 0.5rem;
+}
+
+.kill-bar-cont {
+    top: 3.5rem !important;
+}
+
+.kill-bar-item .weapon-cont {
+    height: 1.5rem;
+}
+
+.kill-bar-item {
+    background: var(--dark-transparent) !important;
+    margin-top: 0.25rem;
+    padding: 0.5rem !important;
+}
+
+.kill-death > div {
+    padding: 0.5rem !important;
+    border-radius: 0.25rem !important;
+    margin: unset !important;
+    box-shadow: unset !important;
+    background: var(--dark-transparent) !important;
+}
+
+.weapons-cont {
+    bottom: 1rem !important;
+    right: 1rem !important;
+}
+
+.state-weapon-active {
+    height: min-content !important;
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+}
+
+.state-weapon-active .quantity,
+.list-weapons {
+    display: none !important;
+}
+
+.desktop-game-interface .chat {
+    position: fixed !important;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: unset;
+    left: 1rem;
+}
+
+.desktop-game-interface .chat > .info {
     display: none;
 }
-.bg.text-1.kd {
-    background: #0000007d;
+
+.desktop-game-interface .chat > .messages {
+    min-height: 11rem !important;
+    margin: unset;
+    background: var(--dark-transparent) !important;
+    transition: background 0.2s ease;
+    border-radius: 0.25rem 0.25rem 0 0;
+    padding: 0.25rem;
+}
+
+.desktop-game-interface .chat > .messages .JOIN {
+    color: var(--accent);
+}
+
+.desktop-game-interface .chat > .messages .LEAVE {
+    color: var(--red);
+}
+
+.desktop-game-interface .chat .message .lvl {
+    color: var(--orange);
+}
+.desktop-game-interface .chat .message .author-name {
+    color: var(--yellow);
+}
+
+.desktop-game-interface > .chat .input:not(:focus) {
+    background: transparent;
+    height: 0rem;
+    padding: 0;
+}
+
+.desktop-game-interface > .chat:not(:focus-within) .messages {
+    background: transparent !important;
+}
+
+.desktop-game-interface .chat .input:focus {
+    height: 2.5rem !important;
+    transition: background 0.2s ease;
+    margin: unset;
+    padding: 0.5rem !important;
+    border-radius: 0 0 0.25rem 0.25rem;
+    background: var(--dark-transparent);
+}
+
+.desktop-game-interface .chat .input::placeholder {
+    color: #ffffff8c !important;
+    text-transform: lowercase;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+}
+
+.desktop-game-interface .chat .info-key-cont {
+    display: none;
+}
+
+.state-cont {
+    flex-direction: row !important;
+    max-width: 25rem !important;
+    gap: 0.5rem !important;
+    align-items: flex-end;
+    opacity: 1 !important;
+}
+
+.cont-endurance {
+    margin: unset !important;
+    padding: unset !important;
+    width: 4.5rem;
+    height: 4rem !important;
+    background: var(--dark-transparent) !important;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 0.25rem !important;
+    transform: rotate(-90deg);
+    position: relative;
+}
+
+.cont-endurance:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: url("https://irrvlo.xyz/dash.png");
+    background-size: cover;
+    background-position: center;
+    transform: rotate(90deg) scale(0.8);
+    filter: invert(1);
+    mix-blend-mode: screen;
+}
+
+.endurance-progress {
+    background: var(--alt-accent) !important;
+    height: 4rem !important;
+    border-radius: 0.25rem !important;
+    transition: width 0.2s linear !important;
+}
+
+.hp-cont {
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.hp-title {
+    width: min-content;
+    align-items: flex-start;
+    background: transparent !important;
+    padding: unset !important;
+    font-size: 2.5rem !important;
+}
+
+.cont-hp {
+    margin: unset !important;
+    height: 1rem !important;
+    border-radius: 0.3rem !important;
+    background: var(--dark-transparent) !important;
+}
+
+.hp-progress {
+    height: 100% !important;
+    border-radius: 0.15rem !important;
+    transition: width 0.2s linear !important;
+}
+
+.team-score {
+    gap: 5.5rem;
+    top: 1rem !important;
+}
+
+.team-score .label {
+    margin: unset;
+    font-size: 1.75rem;
+    height: 2.25rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-score .label.red {
+    background: var(--red);
+}
+
+.team-score .label.blue {
+    background: var(--alt-accent);
+}
+
+/* Kill Card */
+.death-cont {
+    background: transparent !important;
+    justify-content: flex-end !important;
+}
+
+.death-cont .user-card {
+    margin-bottom: -0.7rem;
+    transform: scale(0.7);
+    padding: 1rem;
+    border: unset;
+    border-radius: 0.25rem !important;
+    box-shadow: unset;
+    max-width: 37.5rem;
+    background: var(--dark-transparent);
+}
+
+.user-card .avatar {
+    border-color: var(--dark) !important;
+    background-color: var(--dark) !important;
+}
+
+.user-card .killer-level {
+    color: white;
+    background: transparent;
+    padding: 0;
+    font-size: 3.5rem;
+}
+
+.user-card .killer-name {
+    align-items: flex-start;
+    margin-left: 0.75rem;
+}
+
+.user-card .killer-clan {
+    color: var(--accent);
+}
+
+
+.killer-name .killer-name {
+    margin-left: 0;
+}
+
+.user-card .label-killed {
+    display: none;
+}
+
+.user-card .name-gun:before {
+    content: "["
+}
+
+.user-card .name-gun:after {
+    content: "]"
+}
+
+/* Solo Tab List */
+.tab-info {
+    background: var(--dark-transparent) !important;
+    box-shadow: unset !important;
+    border-radius: 0.25rem !important;
+    max-width: 35rem !important;
+}
+
+.tab-info .head {
+    background: linear-gradient(90deg, var(--orange), transparent) !important;
+    box-shadow: unset !important;
+    border: unset;
+    font-style: normal;
+    border-top-left-radius: 0.25rem;
+}
+
+.tab-info .head .server-id {
+    display: none;
+}
+
+.tab-info .list-value {
+    color: var(--accent)
+}
+
+/* Team Tab List */
+.tab-team-info {
+    background: var(--dark-transparent) !important;
+    box-shadow: unset !important;
+    border-radius: 0.25rem !important;
+    max-width: 60rem !important;
+}
+
+.tab-team-info .head {
+    background: transparent !important;
+    box-shadow: unset !important;
+}
+
+.tab-team-info .label.red {
+    border-top-left-radius: 0.25rem;
+    background: linear-gradient(90deg, var(--red), var(--dark-transparent));
+    justify-content: flex-start;
+    padding-left: 0.75rem;
+}
+
+.tab-team-info .label.blue {
+    border-top-right-radius: 0.25rem;
+    background: linear-gradient(-90deg, var(--alt-accent), var(--dark-transparent));
+    justify-content: flex-end;
+    padding-right: 0.75rem;
+}
+
+.player-list .list-value {
+    color: var(--accent);
+}
+
+.player-list .player-cont {
+    background: var(--dark-transparent) !important;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+}
+
+.player-cont .nickname.bolder {
+    color: var(--yellow);
 }
