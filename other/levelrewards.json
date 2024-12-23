@@ -744,5 +744,13 @@
             "img": false,
             "hidden": true
         }
+    ],
+    "1": [
+        {
+            "name": "You get nothing :/",
+            "amount": ,
+            "img": false,
+            "hidden": true
+        }
     ]
 }
