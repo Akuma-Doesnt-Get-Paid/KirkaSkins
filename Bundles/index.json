@@ -14,7 +14,9 @@
             "name": "Christmas Bundle 002",
             "amount": "5 items, with css",
             "gems": "`540` <:diamond:1320836326194417694>",
-            "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20002%20-%20Christmas.png"
+            "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20002%20-%20Christmas.png",
+            "Startdate": "<t:1639896300:D>",
+            "Enddate": "<t:1648273500:D>"
         }
     ],
     "3": [
@@ -22,7 +24,9 @@
             "name": "Easter Bundle 003",
             "amount": "5 items",
             "gems": "`610` <:diamond:1320836326194417694>",
-            "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20003%20-%20Easter.png"
+            "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20003%20-%20Easter.png",
+            "Startdate": "<t:1648273500:D>",
+            "Enddate": "<t:1653716700:D>"
         }
     ],
     "4": [
@@ -30,7 +34,9 @@
             "name": "Limited Time Bundle 004",
             "amount": "4 items, 1 Name Change",
             "gems": "`620` <:diamond:1320836326194417694>",
-            "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20004%20-%20unnamed.png"
+            "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20004%20-%20unnamed.png",
+            "Startdate": "<t:1653630300:D>",
+            "Enddate": "<t:1663220700:D>"
         }
     ],
     
@@ -39,7 +45,9 @@
             "name": "Samurai Bundle 005",
             "amount": "5 items",
             "gems": "`610` <:diamond:1320836326194417694>",
-            "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20005%20-%20Samurai.png"
+            "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20005%20-%20Samurai.png",
+            "Startdate": "<t:1663047900:D>",
+            "Enddate": "<t:1663911900:D>"
         }
     ],
     "6": [
@@ -47,7 +55,9 @@
             "name": "Halloween Bundle 006",
             "amount": "4 items, 1 Name Change",
             "gems": "`570` <:diamond:1320836326194417694>",
-            "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20006%20-%20Halloween.png"
+            "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20006%20-%20Halloween.png",
+            "Startdate": "<t:1664948700:D>",
+            "Enddate": "<t:1669790700:D>"
         }
     ],
     "7": [
@@ -55,7 +65,9 @@
             "name": "Christmas (2) Bundle 007",
             "amount": "5 items, With css",
             "gems": "`750` <:diamond:1320836326194417694>",
-            "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20007%20-%20Christmas.png"
+            "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20007%20-%20Christmas.png",
+            "Startdate": "<t:1670395500:D>",
+            "Enddate": "<t:1677566700:D>"
         }
     ],
     "8": [
