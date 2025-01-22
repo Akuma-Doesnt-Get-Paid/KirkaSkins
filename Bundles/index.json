@@ -1,7 +1,7 @@
 {
     "1": [
         {
-            "name": "Unnamed Bundle 001",
+            "name": "Unnamed (Skins) Bundle 001",
             "amount": "5 items",
             "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20001%20-%20unnamed.png"
         }
@@ -9,7 +9,7 @@
     "2": [
         {
             "name": "Christmas Bundle 002",
-            "amount": "5 items",
+            "amount": "5 items, with css",
             "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20002%20-%20Christmas.png"
         }
     ],
@@ -22,8 +22,8 @@
     ],
     "4": [
         {
-            "name": "Unnamed (2) Bundle 004",
-            "amount": "5 items",
+            "name": "Limited Time Bundle 004",
+            "amount": "4 items, 1 Name Change",
             "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20004%20-%20unnamed.png"
         }
     ],
@@ -38,56 +38,56 @@
     "6": [
         {
             "name": "Halloween Bundle 006",
-            "amount": "5 items",
+            "amount": "4 items, 1 Name Change",
             "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20006%20-%20Halloween.png"
         }
     ],
     "7": [
         {
             "name": "Christmas (2) Bundle 007",
-            "amount": "5 items",
+            "amount": "5 items, With css",
             "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20007%20-%20Christmas.png"
         }
     ],
     "8": [
         {
             "name": "Valentine Bundle 008",
-            "amount": "4 items",
+            "amount": "4 items, 1 Name Change",
             "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20008%20-%20Valentine.png"
         }
     ],
     "9": [
         {
             "name": "St-Patrick Bundle 009",
-            "amount": "4 items",
+            "amount": "4 items, 1 Name Change",
             "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20009%20-%20St-Patrick.png"
         }
     ],
     "10": [
         {
             "name": "Easter (2) Bundle 010",
-            "amount": "4 items",
+            "amount": "4 items, 1 Name Change",
             "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20010%20-%20Easter.png"
         }
     ],
     "11": [
         {
             "name": "Mother's Day Bundle 011",
-            "amount": "4 items",
+            "amount": "4 items, 1 Name Change",
             "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20011%20-%20Mother's%20Day.png"
         }
     ],
     "12": [
         {
             "name": "Summer Bundle 012",
-            "amount": "4 items",
+            "amount": "4 items, 1 Name Change",
             "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20012%20-%20Summer.png"
         }
     ],
     "13": [
         {
             "name": "Back To School Bundle 013",
-            "amount": "4 items",
+            "amount": "4 items, 1 Name Change",
             "img": "https://juicepoopooumgood.github.io/KirkaSkins/store/Bundles/Bundle%20013%20-%20Back%20To%20School.png"
         }
     ]
