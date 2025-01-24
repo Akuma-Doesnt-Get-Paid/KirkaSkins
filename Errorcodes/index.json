@@ -4,5 +4,18 @@
             "Error": "User is already your friend",
             "amount": "101"
         }
+    ],
+    "102": [
+        {
+            "Error": "User not found",
+            "amount": "102"
+        }
+    ],
+    "103": [
+        {
+            "Error": "User cannot change name",
+            "amount": "103"
+        }
     ]
 }
+
